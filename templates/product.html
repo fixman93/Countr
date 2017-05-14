@@ -1,0 +1,15 @@
+    <div ng-controller="myCtrl" class="container"> 
+{{details}}
+<p>User products:</p>
+      <ul class="product-list">
+        <li ng-repeat="x in details">
+        <img src="{{x.image}}">
+          {{x.name}}
+          <p><label>Price: {{ x.price }}</label></p> 
+        </li>
+        <div>
+          <input ng-model="data.name">
+          <button ng-click="updateProduct()">Update Product #1</button>
+        </div>
+      </ul>
+</div>

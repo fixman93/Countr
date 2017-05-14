@@ -1,0 +1,16 @@
+.product-list {
+	margin-top: 50px;
+	li {
+	    display: inline-block;
+	    max-width: 300px;
+	    img {
+			display: block;
+			width: 150px;
+			height: 150px;
+			object-fit: cover;
+			margin-bottom: 30px;
+			border: 1px solid #ccc;
+			padding: 5px;
+		}
+	}
+}
